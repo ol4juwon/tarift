@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="288" height="40" viewBox="0 0 288 40">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #1e9fd3;
+        font-size: 30px;
+        font-family: SegoeUI-Bold, Segoe UI;
+        font-weight: 700;
+      }
+    </style>
+  </defs>
+  <text id="Create_your_Account" data-name="Create your Account" class="cls-1" transform="translate(144 32)"><tspan x="-143.87" y="0">Create your Account</tspan></text>
+</svg>

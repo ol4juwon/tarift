@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="125" height="14" viewBox="0 0 125 14">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #1c1b1b;
+        font-size: 10px;
+        font-family: SegoeUI-Bold, Segoe UI;
+        font-weight: 700;
+      }
+    </style>
+  </defs>
+  <text id="Second_Address_optional_" data-name="Second Address (optional)" class="cls-1" transform="translate(0 11)"><tspan x="0" y="0">Second Address (optional)</tspan></text>
+</svg>

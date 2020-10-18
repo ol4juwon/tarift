@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="46" height="20" viewBox="0 0 46 20">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #a7a5a5;
+        font-size: 15px;
+        font-family: SegoeUI, Segoe UI;
+        letter-spacing: 0.02em;
+      }
+    </style>
+  </defs>
+  <text id="Month" class="cls-1" transform="translate(0 16)"><tspan x="0" y="0">Month</tspan></text>
+</svg>

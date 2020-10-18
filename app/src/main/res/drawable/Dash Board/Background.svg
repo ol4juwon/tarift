@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="475" height="461.623" viewBox="0 0 475 461.623">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: rgba(255,255,255,0.94);
+        opacity: 0.999;
+      }
+
+      .cls-2 {
+        filter: url(#Background);
+      }
+    </style>
+    <filter id="Background" x="0" y="0" width="475" height="461.623" filterUnits="userSpaceOnUse">
+      <feOffset dy="-10" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="10" result="blur"/>
+      <feFlood flood-opacity="0.102"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g class="cls-2" transform="matrix(1, 0, 0, 1, 0, 0)">
+    <path id="Background-2" data-name="Background" class="cls-1" d="M51,0H364c28.167,0,51,22.477,51,50.2V351.42c0,27.726-22.833,50.2-51,50.2H51c-28.167,0-51-22.477-51-50.2V50.2C0,22.477,22.833,0,51,0Z" transform="translate(30 40)"/>
+  </g>
+</svg>

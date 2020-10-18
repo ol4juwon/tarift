@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100" height="76" viewBox="0 0 100 76">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        opacity: 0.296;
+      }
+    </style>
+  </defs>
+  <g id="Group_13" data-name="Group 13" transform="translate(0.368 -0.238)">
+    <rect id="Rectangle_17" data-name="Rectangle 17" class="cls-1" width="52" height="4" rx="2" transform="translate(26.632 0.238)"/>
+    <rect id="Rectangle_18" data-name="Rectangle 18" class="cls-1" width="29" height="5" rx="2.5" transform="translate(26.632 6.238)"/>
+    <rect id="Rectangle_19" data-name="Rectangle 19" class="cls-1" width="7" height="4" rx="2" transform="translate(26.632 15.238)"/>
+    <rect id="Rectangle_20" data-name="Rectangle 20" class="cls-1" width="7" height="4" rx="2" transform="translate(26.632 22.238)"/>
+    <rect id="Rectangle_21" data-name="Rectangle 21" class="cls-1" width="29" height="3" rx="1.5" transform="translate(26.632 30.238)"/>
+    <rect id="Rectangle_24" data-name="Rectangle 24" class="cls-1" width="22" height="2" rx="1" transform="translate(-0.368 52.238)"/>
+    <rect id="Rectangle_28" data-name="Rectangle 28" class="cls-1" width="22" height="4" rx="2" transform="translate(-0.368 15.238)"/>
+    <rect id="Rectangle_29" data-name="Rectangle 29" class="cls-1" width="11" height="5" rx="2.5" transform="translate(10.632 6.238)"/>
+    <rect id="Rectangle_26" data-name="Rectangle 26" class="cls-1" width="11" height="2" rx="1" transform="translate(10.632 60.238)"/>
+    <rect id="Rectangle_27" data-name="Rectangle 27" class="cls-1" width="6" height="5" rx="2.5" transform="translate(15.632 65.238)"/>
+    <rect id="Rectangle_22" data-name="Rectangle 22" class="cls-1" width="45" height="2" rx="1" transform="translate(33.632 39.238)"/>
+    <rect id="Rectangle_23" data-name="Rectangle 23" class="cls-1" width="73" height="4" rx="2" transform="translate(26.632 45.238)"/>
+    <ellipse id="Ellipse_11" data-name="Ellipse 11" class="cls-1" cx="1" cy="1.5" rx="1" ry="1.5" transform="translate(19.632 73.238)"/>
+  </g>
+</svg>
