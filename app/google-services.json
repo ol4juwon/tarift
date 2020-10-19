@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "427732268435",
+    "firebase_url": "https://tarift-fc9a8.firebaseio.com",
+    "project_id": "tarift-fc9a8",
+    "storage_bucket": "tarift-fc9a8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:427732268435:android:266f716eaf620ec112a466",
+        "android_client_info": {
+          "package_name": "com.ol4juwon.tarift"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "427732268435-3dvkkfud5iin649uvnbevrc75e2i13l9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBeMgdAyP3yzqLSwCOBoBEHVhopsm8z8dU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "427732268435-3dvkkfud5iin649uvnbevrc75e2i13l9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
