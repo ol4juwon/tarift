@@ -5,6 +5,8 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
+import com.google.firebase.auth.FirebaseAuth;
+
 public class MainActivity extends AppCompatActivity {
 
     @Override
@@ -13,6 +15,13 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         getSupportActionBar().hide();
 
+
+    }
+
+    public void login(String email,String password
+    ){
+        FirebaseAuth mfireb = new FirebaseAuth.getInstance();
+        FirebaseAuth.signInWithEmailAndPassword()
 
     }
 }
