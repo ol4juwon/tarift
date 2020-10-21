@@ -1,5 +1,8 @@
 package com.ol4juwon.tarift;
 
+import android.widget.EditText;
+import android.widget.TextView;
+
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
@@ -33,18 +36,8 @@ public class FirebaseUtil {
 
     // TODO create a login function to tarift
     public static void signIn(){
-        List<AuthUI.IdpConfig> providers = Arrays.asList(
-                new AuthUI.IdpConfig.EmailBuilder().build()
-        );
-        caller.startActivity(
-                AuthUI.getInstance()
-                        .createSignInIntentBuilder()
-                        .setAvailableProviders(providers)
-                        .setIsSmartLockEnabled(true)
-                        .build(),
-                123);
+        mFirebaseAuth = FirebaseAuth.getInstance();
 
-        );
 
     }
 

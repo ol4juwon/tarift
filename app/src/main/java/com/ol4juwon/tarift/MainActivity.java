@@ -1,13 +1,14 @@
 package com.ol4juwon.tarift;
 
-import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
-
-import com.google.firebase.auth.FirebaseAuth;
+import android.view.View;
+import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -15,13 +16,27 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         getSupportActionBar().hide();
 
+        Button login = findViewById(R.id.signBtn);
+        login.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(MainActivity.this, LoginActivity.class);
+                startActivity(i);
+            }
+        });
+
+        Button createAcc = findViewById(R.id.create_account);
+        createAcc.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(MainActivity.this,SignupActivity.class);
+                startActivity(i);
+            }
+        });
 
     }
 
-    public void login(String email,String password
-    ){
-        FirebaseAuth mfireb = new FirebaseAuth.getInstance();
-        FirebaseAuth.signInWithEmailAndPassword()
 
-    }
+
+
 }
