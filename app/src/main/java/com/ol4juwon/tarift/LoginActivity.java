@@ -67,10 +67,7 @@ public class LoginActivity extends AppCompatActivity {
                 }
             }
         };
-        login = findViewById(R.id.loginbtn);
-        login.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
+
                 String emailId  = email.getText().toString();
                 String passwordTxt  = password.getText().toString();
 
@@ -97,8 +94,7 @@ public class LoginActivity extends AppCompatActivity {
                         }
                     });
                 }
-            }
-        });
+
 
 
 

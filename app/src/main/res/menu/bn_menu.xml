@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/bn_dash"
+        android:icon="@drawable/dash" />
+    <item
+        android:id="@+id/bn_profile"
+        android:icon="@drawable/profil" />
+    <item
+        android:id="@+id/bn_transfer"
+        android:icon="@drawable/transc" />
+    <item
+        android:id="@+id/bn_add_card"
+        android:icon="@drawable/wallet"
+         />
+
+</menu>

@@ -16,6 +16,8 @@ import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
 
 public class SignupActivity extends AppCompatActivity {
 
@@ -25,6 +27,8 @@ public class SignupActivity extends AppCompatActivity {
     EditText lastName;
     EditText password;
     private FirebaseAuth mFirebaseAuth;
+    FirebaseDatabase rootNode ;
+    DatabaseReference mReference;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -49,15 +53,12 @@ public class SignupActivity extends AppCompatActivity {
 
     public void Signup() {
         mFirebaseAuth = FirebaseAuth.getInstance();
-        signup =findViewById(R.id.SignupBtn);
 
-        signup.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                String emailId = email.getText().toString();
-                String passwordTxt = password.getText().toString();
-                String firstNametxt = firstName.getText().toString();
-                String lastNameTxt = lastName.getText().toString();
+                final String emailId = email.getText().toString();
+                final String passwordTxt = password.getText().toString();
+                final String firstNametxt = firstName.getText().toString();
+                final String lastNameTxt = lastName.getText().toString();
+
 
                 if (emailId.isEmpty()) {
                     email.setError("Please enter a valid email address");
@@ -83,7 +84,15 @@ public class SignupActivity extends AppCompatActivity {
 
                                 FirebaseUser mfirebaseUser = mFirebaseAuth.getCurrentUser();
                                 if(mfirebaseUser != null) {
-                                    mfirebaseUser.getEmail();
+                                    String uid = mfirebaseUser.getUid();
+
+    rootNode = FirebaseDatabase.getInstance();
+    mReference = rootNode.getReference("Users");
+
+
+    Users user = new Users(emailId,firstNametxt,lastNameTxt,passwordTxt,uid,0);
+    mReference.child(uid).setValue(user);
+
                                     Toast.makeText(SignupActivity.this,mfirebaseUser.getEmail().toString(),Toast.LENGTH_LONG).show();
                                     Intent I = new Intent(SignupActivity.this, DashboardActivity.class);
                                     startActivity(I);
@@ -95,8 +104,7 @@ public class SignupActivity extends AppCompatActivity {
                 }
 
 
-            }
-        });
+
 
 
         // FirebaseAuth.signInWithEmailAndPassword();
